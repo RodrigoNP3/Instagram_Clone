@@ -31,6 +31,8 @@ dependencies:
   image_picker: ^0.8.5+3
   provider: ^6.0.3
   uuid: ^3.0.6
+  intl: ^0.17.0
+  flutter_staggered_grid_view: ^0.4.1
 ```
 
 ### Navigation
