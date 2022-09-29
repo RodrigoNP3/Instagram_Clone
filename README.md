@@ -137,7 +137,8 @@ Mobile:
 
   </a></td> 
 
-Web:
+  
+
 
 
 <table>
@@ -146,6 +147,33 @@ Web:
 <th align="center">Login Screen</th>
 <th align="center">Sign Up Screen</th>
 
+Web:
+
+</tr>
+</thead>
+<tbody>
+<tr>
+  
+<td align="center">
+  <a target="_blank" rel="" href="images/web/login_screen.png">
+        <img src="images/web/login_screen.png" alt="Css Logo" with="400" height="200"/>
+
+  </a></td>
+  
+<td align="center">
+  <a target="_blank" rel="" href="images/web/signup_screen.png">
+        <img src="images/web/signup_screen.png" alt="Css Logo" with="400" height="200"/>
+
+  </a></td>
+
+  
+  
+  
+<table>
+<thead>
+<tr>
+<th align="center">Feed</th>
+<th align="center">Search Screen</th>
 
 
 </tr>
@@ -154,17 +182,69 @@ Web:
 <tr>
   
 <td align="center">
-  <a target="_blank" rel="" href="images/web/login_screen.jpg">
-        <img src="images/Login_screen.jpg" alt="Css Logo" with="400" height="400"/>
+  <a target="_blank" rel="" href="images/web/feed_screen.png">
+        <img src="images/web/feed_screen.png" alt="Css Logo" with="400" height="200"/>
 
   </a></td>
   
 <td align="center">
-  <a target="_blank" rel="" href="images/web/signup_screen.jpg">
-        <img src="images/Signup_screen.jpg" alt="Css Logo" with="400" height="400"/>
+  <a target="_blank" rel="" href="images/web/search_screen.png">
+        <img src="images/web/search_screen.png" alt="Css Logo" with="400" height="200"/>
+
+  </a></td>
+
+
+
+  
+<table>
+<thead>
+<tr>
+<th align="center">Profile Screen</th>
+<th align="center">Profile Screen</th>
+<!-- <th align="center">Add Post Screen</th>
+<th align="center">Add Post Screen</th> -->
+
+
+</tr>
+</thead>
+<tbody>
+<tr>
+  
+<td align="center">
+  <a target="_blank" rel="" href="images/web/profile_screen.png">
+        <img src="images/web/profile_screen.png" alt="Css Logo" with="400" height="200"/>
 
   </a></td>
   
+<td align="center">
+  <a target="_blank" rel="" href="images/web/profile_screen_02.png">
+        <img src="images/web/profile_screen_02.png" alt="Css Logo" with="400" height="200"/>
+
+  </a></td>
+
+
+<table>
+<thead>
+<tr>
+<!-- <th align="center">Profile Screen</th>
+<th align="center">Profile Screen</th> -->
+<th align="center">Add Post Screen</th>
+<th align="center">Add Post Screen</th>
+
+
+</tr>
+</thead>
+<tbody>
+<tr>
   
+<td align="center">
+  <a target="_blank" rel="" href="images/web/add_post_screen_02.png">
+        <img src="images/web/add_post_screen_02.png" alt="Css Logo" with="400" height="200"/>
 
+  </a></td>
+  
+<td align="center">
+  <a target="_blank" rel="" href="images/web/add_post_screen.png">
+        <img src="images/web/add_post_screen.png" alt="Css Logo" with="400" height="200"/>
 
+  </a></td>
