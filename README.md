@@ -18,7 +18,7 @@ Clone it in your machine:
 git clone https://github.com/RodrigoNP3/Instagram_Clone.git
 ```
 
-Dependecies
+Dependecies:
 
 ```bash
 dependencies:
@@ -37,12 +37,15 @@ dependencies:
 
 ### Navigation
 
+Mobile:
+
 <table>
 <thead>
 <tr>
 <th align="center">Login Screen</th>
 <th align="center">Sign Up Screen</th>
-
+<th align="center">Feed</th>
+<th align="center">Search Screen</th>
 
 
 </tr>
@@ -62,5 +65,106 @@ dependencies:
 
   </a></td>
   
+ <td align="center">
+  <a target="_blank" rel="" href="images/feed_screen.jpg">
+        <img src="images/feed_screen.jpg" alt="Css Logo" with="200" height="400"/>
+
+  </a></td>
+  
+<td align="center">
+  <a target="_blank" rel="" href="images/search_screen.jpg">
+        <img src="images/search_screen.jpg" alt="Css Logo" with="200" height="400"/>
+
+  </a></td> 
+  
+
+  
+<table>
+<thead>
+<tr>
+<th align="center">Profile Screen</th>
+<th align="center">Profile Screen</th>
+<th align="center">Add Post Screen</th>
+<th align="center">Add Post Screen</th>
+
+
+</tr>
+</thead>
+<tbody>
+<tr>
+  
+<td align="center">
+  <a target="_blank" rel="" href="images/profile_screen.jpg">
+        <img src="images/profile_screen.jpg" alt="Css Logo" with="200" height="400"/>
+
+  </a></td>
+  
+<td align="center">
+  <a target="_blank" rel="" href="images/profile_screen_02.jpg">
+        <img src="images/profile_screen_02.jpg" alt="Css Logo" with="200" height="400"/>
+
+  </a></td>
+  
+ <td align="center">
+  <a target="_blank" rel="" href="images/add_post_screen.jpg">
+        <img src="images/add_post_screen.jpg" alt="Css Logo" with="200" height="400"/>
+
+  </a></td>
+  
+<td align="center">
+  <a target="_blank" rel="" href="images/add_post_screen_02.jpg">
+        <img src="images/add_post_screen_02.jpg" alt="Css Logo" with="200" height="400"/>
+
+  </a></td> 
+  
+
+<table>
+<thead>
+<tr>
+<th align="center">Add Post Screen</th>
+
+
+
+</tr>
+</thead>
+<tbody>
+<tr>
+
+
+<td align="center">
+  <a target="_blank" rel="" href="images/add_post_screen03.jpg">
+        <img src="images/add_post_screen03.jpg" alt="Css Logo" with="200" height="400"/>
+
+  </a></td> 
+
+Web:
+
+
+<table>
+<thead>
+<tr>
+<th align="center">Login Screen</th>
+<th align="center">Sign Up Screen</th>
+
+
+
+</tr>
+</thead>
+<tbody>
+<tr>
+  
+<td align="center">
+  <a target="_blank" rel="" href="images/web/login_screen.jpg">
+        <img src="images/Login_screen.jpg" alt="Css Logo" with="400" height="400"/>
+
+  </a></td>
+  
+<td align="center">
+  <a target="_blank" rel="" href="images/web/signup_screen.jpg">
+        <img src="images/Signup_screen.jpg" alt="Css Logo" with="400" height="400"/>
+
+  </a></td>
   
   
+
+

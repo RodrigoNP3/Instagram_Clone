@@ -44,6 +44,7 @@ class _SearchScreenState extends State<SearchScreen> {
           },
           onFieldSubmitted: (String _) {
             setState(() {
+              print('submitted');
               isShowUsers = true;
             });
           },
@@ -63,8 +64,11 @@ class _SearchScreenState extends State<SearchScreen> {
                   );
                 }
                 return ListView.builder(
+                  // shrinkWrap: true,
                   itemCount: (snapshot.data! as dynamic).docs.length,
                   itemBuilder: (context, index) {
+                    print(
+                        'ROLA ROLA ROLAROLA${(snapshot.data! as dynamic).docs.length}');
                     return InkWell(
                       onTap: () => Navigator.of(context).push(
                         MaterialPageRoute(
@@ -93,10 +97,15 @@ class _SearchScreenState extends State<SearchScreen> {
                   .orderBy('datePublished', descending: true)
                   .get(),
               builder: (context, snapshot) {
+                print('lista de fotos');
                 if (!snapshot.hasData) {
                   return const Center(child: CircularProgressIndicator());
                 }
                 return StaggeredGridView.countBuilder(
+                  padding: EdgeInsets.symmetric(
+                    horizontal: width > webScreenSize ? (width * 0.3) : 0,
+                    vertical: width > webScreenSize ? 15 : 0,
+                  ),
                   crossAxisCount: 3,
                   itemCount: (snapshot.data! as dynamic).docs.length,
                   itemBuilder: (context, index) => Image.network(
