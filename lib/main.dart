@@ -16,11 +16,11 @@ void main() async {
   if (kIsWeb) {
     await Firebase.initializeApp(
       options: const FirebaseOptions(
-        apiKey: 'AIzaSyBbgHQ1ptbwaxfc1dyI91P0Jfetdk2CthE',
-        appId: '1:297703200251:web:1d7b2e7e309eb0b641275e',
-        messagingSenderId: '297703200251',
-        projectId: 'instagram-tut-5d315',
-        storageBucket: 'instagram-tut-5d315.appspot.com',
+        apiKey: 'YOUR apiKey',
+        appId: 'YOUR appId',
+        messagingSenderId: 'YOUR messagingSenderId',
+        projectId: 'YOUR projectId',
+        storageBucket: 'YOUR storageBucket',
       ),
     );
   } else {

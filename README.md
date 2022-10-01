@@ -35,6 +35,108 @@ dependencies:
   flutter_staggered_grid_view: ^0.4.1
 ```
 
+Firebase Setup:
+
+1 - Create a new firebase project in the firebase console;
+You can deactivate the Google Analytics.
+
+2 - Setup authentication by email/password;
+
+3 - Create a Firestore Database;
+
+Change the rules from:
+
+```bash
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /{document=**} {
+      allow read, write: if
+          request.time < timestamp.date(2022, 10, 31);
+    }
+  }
+}
+```
+
+Change to:
+
+```bash
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /{document=**} {
+      allow read, write: if request.auth != null;
+    }
+  }
+}
+```
+
+4 - Create a Storage Database;
+
+Change the rules from:
+
+```bash
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}
+```
+
+Change to:
+
+```bash
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    match /{allPaths=**} {
+      allow read, write: if request.auth != null;
+    }
+  }
+}
+```
+
+5 - Create an iOS app;
+
+Apple bundle id:
+com.example.instagramFlutter
+
+Download the GoogleService-Info.plist and put it in the Runner folder.
+
+ios>Runner>GoogleService-Info.plist
+
+You can skip the next iOS app creation steps.
+
+6 - Create an Android app;
+
+Android package name:
+com.example.instagram_flutter
+
+Download the google-services.json and put it in the app folder.
+
+android>app>google-services.json
+
+You can skip the next Android app creation steps.
+
+6 - Create an Web app;
+
+In the main.dart file put you firebase configurations
+
+```bash
+    await Firebase.initializeApp(
+      options: const FirebaseOptions(
+        apiKey: 'YOUR apiKey',
+        appId: 'YOUR appId',
+        messagingSenderId: 'YOUR messagingSenderId',
+        projectId: 'YOUR projectId',
+        storageBucket: 'YOUR storageBucket',
+      ),
+    );
+```
+
 ### Navigation
 
 Mobile:
